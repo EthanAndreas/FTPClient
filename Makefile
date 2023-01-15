@@ -2,13 +2,13 @@ CC = gcc
 CFLAGS = -O0 -pipe -Wall -Werror -Wextra -g 
 LDLIBS ?=
 
-all: ftp_server ftp_client
+all: server client
 
-ftp_server: src/ftp_server.c
-	gcc -o bin/ftp_server src/ftp_server.c
+server: src/server.c
+	gcc -o bin/server src/server.c
 
-ftp_client: src/ftp_client.c
-	gcc -o bin/ftp_client src/ftp_client.c
+client: src/client.c
+	gcc -o bin/client src/client.c
 
 	@echo "\033[92mCompiled\033[0m"
 

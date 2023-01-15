@@ -10,7 +10,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#define SERV_PORT 21
+#define SERV_PORT 0
 
 #define BLU "\e[30m"
 #define NC "\e[0m"
