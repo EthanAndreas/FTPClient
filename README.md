@@ -1,1 +1,1 @@
-# FTP client
+# Network client
