@@ -1,4 +1,4 @@
-# Network client
+# FTP client
 
 This is a simple network client that can be used to test the network server.
 
