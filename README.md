@@ -1,5 +1,5 @@
 # FTP client
-[![version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/EthanAndreas/FtpClient)
+[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/EthanAndreas/FtpClient)
 [![compiler](https://img.shields.io/badge/compiler-gcc-red.svg)](https://github.com/EthanAndreas/FtpClient/blob/main/Makefile)
 [![author](https://img.shields.io/badge/author-EthanAndreas-blue)](https://github.com/EthanAndreas)
 [![author](https://img.shields.io/badge/author-Cottelle-blue)](https://github.com/Cottelle)
@@ -19,7 +19,9 @@ This is a simple network client that can be used to test the network server.
 ## Command
 
 - Compilation
-
+```bash
+make
+```
 - Launch
 ```bash
 ./bin/client 
